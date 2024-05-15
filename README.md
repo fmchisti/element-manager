@@ -7,7 +7,7 @@
 You can install `element-manager` via npm:
 
 ```bash
-npm install select-element
+npm install element-manager
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ npm install select-element
 To use `element-manager`, you need to import it into your project:
 
 ```typescript
-import ElementManager from "select-element";
+import ElementManager from "element-manager";
 ```
 
 ### Creating an Instance
@@ -276,7 +276,7 @@ console.log(dataValue);
 Here's an example demonstrating the usage of `ElementManager`:
 
 ```typescript
-import ElementManager from "select-element";
+import ElementManager from "element-manager";
 
 const elementManager = new ElementManager("#my-element");
 
