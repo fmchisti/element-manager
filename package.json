@@ -12,10 +12,22 @@
     "dev": "microbundle watch",
     "prepublishOnly": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fmchisti/element-manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fmchisti/element-manager/issues"
+  },
+  "homepage": "https://github.com/fmchisti/element-manager#readme",
   "keywords": [
     "dom manager",
     "element mamager",
-    "element"
+    "element",
+    "DOM",
+    "manipulation",
+    "event",
+    "utility"
   ],
   "author": "Fahim Mahmud Chisti",
   "license": "MIT",
