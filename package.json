@@ -1,6 +1,6 @@
 {
   "name": "element-manager",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A utility class for DOM manipulation and event handling, providing a chainable API to simplify working with HTML elements.",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
@@ -33,9 +33,7 @@
   "license": "MIT",
   "devDependencies": {
     "microbundle": "^0.15.1",
+    "tsx": "^4.10.2",
     "typescript": "^5.4.5"
-  },
-  "dependencies": {
-    "tsx": "^4.10.2"
   }
 }
