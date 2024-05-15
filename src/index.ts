@@ -197,4 +197,16 @@ export default class ElementManager {
   getData(dataAttr: string): string | null {
     return this.element ? this.element.getAttribute(`data-${dataAttr}`) : null;
   }
+
+  getAllData(): Record<string, string> {
+    if (!this.element || !(this.element instanceof HTMLElement)) return {};
+    const dataset: Record<string, string> = {};
+
+    for (const key in this.element.dataset) {
+      if (this.element.dataset.hasOwnProperty(key)) {
+        dataset[key] = this.element.dataset[key] || "";
+      }
+    }
+    return dataset;
+  }
 }
