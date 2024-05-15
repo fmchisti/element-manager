@@ -1,0 +1,29 @@
+{
+  "name": "element-manager",
+  "version": "1.0.0",
+  "description": "A utility class for DOM manipulation and event handling, providing a chainable API to simplify working with HTML elements.",
+  "main": "dist/index.js",
+  "module": "dist/index.modern.js",
+  "types": "dist/index.d.ts",
+  "source": "src/index.ts",
+  "scripts": {
+    "start": "tsx --watch src/index.ts",
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "dom manager",
+    "element mamager",
+    "element"
+  ],
+  "author": "Fahim Mahmud Chisti",
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.15.1",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "tsx": "^4.10.2"
+  }
+}
